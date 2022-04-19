@@ -53,7 +53,7 @@ p {
 .section-heading em {
   font-style: normal;
   font-weight: 700;
-  color: #45489a;
+  color: #000;
 }
 
 .section-heading p {
@@ -68,7 +68,7 @@ p {
 .white-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: #000;
   text-transform: capitalize;
   background-color: #fff;
   display: inline-block;
@@ -81,7 +81,7 @@ p {
 }
 
 .white-button a:hover {
-  background-color: #45489a;
+  background-color: #000;
   color: #fff;
 }
 
@@ -90,7 +90,7 @@ p {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #000;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -415,15 +415,15 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/ouropretobackground1.jpeg);
+  background-image: url(../img/backgroundslider1.jpg);
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../img/ouropretobackground2.jpeg);
+  background-image: url(../img/backgroundslider2.jpg);
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/ouropretobackground3.jpeg);
+  background-image: url(../img/backgroundslider3.jpg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
@@ -548,7 +548,7 @@ header {
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgba(69,72,154, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -742,7 +742,7 @@ header {
   height: 90px;
   width: 100%;
   background-color: #eee;
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid #000;
 }
 
 #blog .tabs li {
@@ -777,7 +777,7 @@ header {
 }
 
 #blog .tabs .active {
-  background-color: #45489a;
+  background-color: #000;
   color: #fff;
 }
 
