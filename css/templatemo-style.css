@@ -479,7 +479,7 @@ header {
 }
 
 #featured .owl-dots .active span {
-  background-color: #45489a!important;
+  background-color: #000!important;
 }
 
 #featured .owl-dots button {
@@ -514,8 +514,18 @@ header {
   transition: all 0.5s;
 }
 
+#featured .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
+
+#featured .owl-wrapper {
+  padding-right: 60px;
+}
+
+
 #featured .owl-nav span:hover {
-  background-color: #45489a;
+  background-color: #000;
   color: #fff;
 }
 
@@ -530,7 +540,7 @@ header {
 }
 
 #featured .item .image img {
-  width: 100%;
+  width: 80%;
   overflow: hidden;
 }
 
@@ -544,7 +554,7 @@ header {
   display: inline-block;
   height: 44px;
   line-height: 44px;
-  width: 100%;
+  width: 80%;
   letter-spacing: 0.25px;
   text-decoration: none;
   transition: all 0.5s;
@@ -569,7 +579,7 @@ header {
 #featured .item .text-content h4 {
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 600;
   color: #232323;
   letter-spacing: 0.5px;
@@ -577,7 +587,7 @@ header {
 
 #featured .item .text-content span {
   display: inline-block;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   color: #7a7a7a;
   letter-spacing: 0.5px;
